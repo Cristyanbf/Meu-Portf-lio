@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&family=Krona+One&display=swap');
+@import url('styles/header.css');
+@import url('styles/main.css');
+
+
+:root{
+    --cor-primaria: #222831;
+    --cor-secundaria: #EEEEEE; 
+    --cor-terciaria: #76ABAE;
+    --cor-hover: #31363F;
+
+    --fonte-primaria: "Krona One", sans-serif;
+    --fonte-secundaria: "Oswald";
+}
+
+body {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 50px;
+    width: auto;
+    height: auto;
+}

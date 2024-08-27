@@ -3,89 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mim</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <title>Portfólio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__link" href="index.html">Home</a>
-            <a class="cabecalho__link" href="about.html">Sobre mim</a>
-            <a class="cabecalho__link" href="certificates.html">Certificados</a>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <nav class="menu">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">Sobre Mim</a></li>
+                <li><a href="./certificates.html">Certificados</a></li>
+                <li><a href="./projetos.html">Projetos</a></li>
+                <li><a href="./contatos.html">Contato</a></li>
+            </ul>
         </nav>
     </header>
 
     <main class="apresentacao">
-        <section class="apresentacao__conteudo__about"> 
-            <h1 class="apresentacao__conteudo__titulo">Sobre mim</h1>
-            <p class="apresentacao__conteudo__texto"> 
-            <strong class="tituloDestaque">Resumo</strong></p>
         
-            <p class="apresentacao__conteudo__texto__about">Estudante de ciência da computação na instituição Anhanguera e Desenvolvimento Front-end na escola online de tecnologia Alura.
-Possuo conhecimento em logica de programação com JavaScript, React, CSS e HTML, voltados para Front-end, além de ótima habilidade em comunicação verbal e escrita, facilitando a interação com colegas de trabalho e clientes. Tenho grande disposição para desenvolvimento pessoal e profissional, que me permite contribuir positivamente para o sucesso da empresa. 
-        
-<strong class="tituloDestaque">Histórico Acadêmico</strong>
+            <p>- Português: Língua materna.</p>
+            <p>- Inglês: Básico.</p> 
+            
+        <h3 class="apresentacao__conteudo__titulo">Idiomas</h3>
 
-Faculdade Anhanguera - Bacharel em Medicina Veterinária | Fev de 2018 - Dez de 2023.
-
-Faculdade Anhanguera - Bacharel em Ciência da Computação | Fev de 2024 - Dez 2028.
-- Estou cursando atualmente
-        
-<strong class="tituloDestaque">Cursos na Área de Programação </strong>
-
-Escola Alura - A Partir do Zero: Formação em Iniciante em Programação | Abr 2024 - Jun 2024.
- - Formação voltada para logica de programação com JavaScript.
-
- Escola Alura - Formação em Front-end | Jun 2024 - Jun 2025.                            
- - Atualmente cursando CSS, HTML e JavaScript voltado para criação de paginas dinâmicas.
-                           
-<strong class="tituloDestaque">Habilidades</strong>
-
-- Conhecimento em Lógica de Programação com JavaScript.
-- Conhecimento em CSS.
-- Conhecimento em HTML.
-- Autodidata.
-- Estudioso.
-- Flexivel.
-- Organizado.
-- Proativo.
-- Simpático.
-         
-<strong class="tituloDestaque">Idiomas</strong>
-- Português: Língua materna.
-- Inglês: Básico.
-
-<strong class="tituloDestaque">Experiências Profissionais:</strong>                
-
-Cargo: Garçom.
-Empresa: Casarão Pizzaria.
-Periodo: 2016 - 2017.
-Cidade: Paulo Lopes-SC.   
-
-Cargo: Montador.
-Empresa: Br Poltronas.
-Periodo: 2017 - 2018.
-Cidade: Paulo Lopes-SC.       
-               
-Cargo: Recepcionista.
-Empresa: Coyote Pet Shop.
-Periodo: 2020 - 2021.
-Cidade: Garopaba-SC. 
-        
-Cargo: Médico Veterinário.
-Empresa: Hospital Veterinário Vetmax.
-Periodo: Atualmente.
-Cidade: Palhoça-SC.
-</p>
+        <section class="apresentacao">
+            <div class="carousel">
+                <div class="carousel-slides">
+                    <div class="carousel-item">Conhecimento em Lógica de Programação com JavaScript.</div>
+                    <div class="carousel-item">Conhecimento em desenvolvimento Front-end com JavaScript.</div>
+                    <div class="carousel-item">Conhecimento em CSS.</div>
+                    <div class="carousel-item">Conhecimento em HTML.</div>
+                    <div class="carousel-item">Conhecimento em Git e Github.</div>
+                    <div class="carousel-item">Conhecimento em desenvolvimento Front-End a partir do Figma.</div>
+                    <div class="carousel-item">Estudioso.</div>
+                    <div class="carousel-item">Organizado.</div>
+                    <div class="carousel-item">Proativo.</div>
+                    <div class="carousel-item">Simpático.</div>
+                </div>
         </section>
-        <img  clas= "apresentacao__imagem" src="./assets/MinhaImagem-Photoroom-Photoroom.jpg" alt="Minha Imagem">
+            <p class="apresentacao__conteudo__texto">Explore o carrossel!</p>
+        <h3 class="apresentacao__conteudo__titulo">Habilidades</h3>
+        <section class="apresentacao__conteudo">
+
+            <h1 class="apresentacao__conteudo__titulo">Sobre mim</h1>
+            <p class="apresentacao__conteudo__texto"> Me chamo Cristyan Bernardo Fernandes, sou estudante de ciência da computação na instituição Anhanguera e Desenvolvimento Front-end na escola online de tecnologia Alura.
+            Possuo conhecimento em logica de programação e desenvolvimento Front-end com JavaScript, CSS e HTML. Com ótima habilidade em comunicação verbal e escrita, facilitando a interação com colegas de trabalho e clientes. </p>
+        </section>
+        
+            </div>
+            <div class="apresentacao__flex">
+        <img clas= "apresentacao__imagem" src= "./assets/Minha-imagem-Photoroom.jpg" alt = "Minha imagem">
+            </div>
         
 
     </main>
 
-   <footer class="rodape">
-        Desenvolvido por Cristyan Fernandes.
-    </footer>
-    
 </body>
 </html>

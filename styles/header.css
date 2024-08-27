@@ -1,0 +1,97 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    display:inline-block;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    text-align: center;
+    z-index: 999; /* Garante que o ícone esteja acima de outros elementos */
+}
+
+.menu {
+    position: absolute;
+    top: 60%;
+    left: -200px; /* Esconde o menu inicialmente */
+    width: 200px;
+    height: 100%;
+    background-color: var(--cor-primaria);
+    transition: left 0.3s ease; /* Adiciona uma transição suave ao mostrar/esconder o menu */
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: var(--cor-primaria);
+}
+
+.menu ul li {
+    padding: 15px;
+    border-bottom: var(--cor-primaria);
+}
+
+.menu ul li a {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    text-decoration: none;
+    display: block;
+}
+
+.menu ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+#menu-toggle {
+    display: none; /* Esconde o checkbox padrão */
+}
+
+#menu-toggle:checked ~ .menu {
+    left: 0; /* Mostra o menu quando o checkbox está marcado */
+}
+
+.content {
+    padding: 20px;
+    margin-left: 200px; /* Ajusta o conteúdo principal para evitar sobreposição com o menu */
+}
+
+@media screen and (min-width: 1024px){
+    .menu-icon{
+        display:none ;
+    }
+    .menu{
+        left: 0;
+        width: 200px;
+        height: 100%;
+        padding: 0 10em;
+        margin-bottom: 2px;
+        
+    }
+    .menu ul{
+        display: flex;
+        text-align: center;
+        gap: 2em;
+        
+        
+    } 
+}
+
+@media screen and (min-width: 1280px ) {
+    .menu{
+        left: 0;
+        width: 200px;
+        height: 100%;
+        padding: 0 18em;
+        margin-bottom: 1px;
+        font-size: 24x;
+        
+}
+}
+
+    
