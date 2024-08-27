@@ -44,31 +44,6 @@
     color: var(--cor-terciaria);
 }
 
-.carousel {
-    position:inherit;
-    width: 30%;
-    overflow: hidden;
-    border: 3px solid var(--cor-terciaria); /* Adicionado para visualização */
-    border-radius: 10px; /* Adicionado para visualização */
-    background-color: var(--cor-primaria); /* Adicionado para visualização */
-}
-
-.carousel-slides {
-    display:flex;
-    align-items: center;
-    overflow-x:auto; /* Permite rolar horizontalmente */
-    scroll-behavior: smooth; /* Adiciona rolagem suave */
-    width: 100%;
-}
-
-.carousel-item {
-    flex: 0 0 100%;
-    padding: 1px 1px;
-    box-sizing: border-box;
-    text-align: center;
-    
-}
-
 .apresentacao__links{
     display:grid;
     align-items: center;
