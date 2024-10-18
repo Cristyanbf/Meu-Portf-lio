@@ -24,37 +24,78 @@
     <main class="apresentacao">
         <section class="apresentacao__conteudo"> 
             <h1 class="apresentacao__conteudo__titulo">Certificados</h1>
-            <p class="apresentacao__conteudo__subtitulo__certificados"> Lógica de Programação</p>
-            <a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/degree/certificate/d546f8c8-6d1c-44d7-9694-171e808cd14b?lang">Formação: A partir do zero: iniciante em programação</a>
-            <p class="apresentacao__conteudo__texto__certificados">Cursos realizados para esta formação:</p>
-            <a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/9d80a983-3311-446f-bd15-2c56be5b6548?lang">Lógica de programação: mergulhe em programação com JavaScript</a>
-            <a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/4bb151d2-fb0f-421c-9b6a-a5fc80d91238?lang">Lógica de programação: explore funções e listas</a>
-            <a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/24a8505d-738d-469c-8c60-5f383e5036f9?lang">Git e GitHub: compartilhando e colaborando em projetos</a>
-            <a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/10c35038-7a00-4c1f-ba03-33805f8a714e?lang">Lógica de programação: praticando com desafios</a>
-            <a class="apresentacao__links__links" href="https://www.alura.com.br/formacao-programacao">Mais informações sobre a formação.</a>
-            <p class="apresentacao__conteudo__subtitulo__certificados">Desenvolvimento Front-End</p>
-            <a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/degree/certificate/32545ae5-264f-4504-9e2b-606535b6ed27?lang">Formação: A partir do zero: HTML e CSS para projetos web</a>
-            <p class="apresentacao__conteudo__texto__certificados">Cursos realizados para esta formação:</p>
-            <a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/d2c2fe1e-ca21-455c-b5bd-98c3f4d4c75a?lang">HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags</a>
-            <a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/18376f4a-d0f8-4bb9-8d8b-af9e8b212c0d?lang">HTML e CSS: Classes, posicionamento e Flexbox</a>
-            <a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/50d46bb4-61e8-412b-9f22-7e3f6e436e99?lang">HTML e CSS: cabeçalho, footer e variáveis CSS</a>
-            <a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/8c49c610-5c9c-4c51-a1e0-d706f4044b24?lang">HTML e CSS: trabalhando com responsividade e publicação de projetos</a>
-            <a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/57977639-a016-48e4-9217-bf1092c6d055?lang">HTML e CSS: praticando HTML/CSS</a>
-            <a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/0b02f4c0-90df-4a20-a549-8e1c6f7dfa8c?lang">HTML e CSS: responsividade com mobile-first</a>
-            <a class="apresentacao__links__links" href="https://cursos.alura.com.br/formacao-html-css-v527396">Mais informações sobre a formação.</a>
-            <a class="apresentacao__links__certificados" href="#">Formação:Desenvolva aplicações Web com JavaScript.</a>
+        <div class="tab">
+            <button class="tablinks " onclick="openTab(event, 'Tab1')">Lógica de Programação </button>
+            <button class="tablinks" onclick="openTab(event, 'Tab2')">Desenvolvimento Front-End</button>
+            <button class="tablinks" onclick="openTab(event, 'Tab3')">Desenvolvimento Web com Javascript</button>
+            <button class="tablinks" onclick="openTab(event, 'Tab4')">Quality Assurance</button>
+        </div>
+    
+        <div id="Tab1" class="tabcontent">
+            <h3 class="apresentacao__conteudo__subtitulo__certificados">Lógica de Programação</h3>
+            <p> <a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/degree/certificate/d546f8c8-6d1c-44d7-9694-171e808cd14b?lang">Formação: A partir do zero: iniciante em programação</a></p>
+                <p class="apresentacao__conteudo__texto__certificados">Cursos realizados para esta formação:</p>
+                <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/9d80a983-3311-446f-bd15-2c56be5b6548?lang">Lógica de programação: mergulhe em programação com JavaScript</a></p>
+
+                <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/4bb151d2-fb0f-421c-9b6a-a5fc80d91238?lang">Lógica de programação: explore funções e listas</a></p>
+
+                <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/24a8505d-738d-469c-8c60-5f383e5036f9?lang">Git e GitHub: compartilhando e colaborando em projetos</a></p>
+
+                <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/10c35038-7a00-4c1f-ba03-33805f8a714e?lang">Lógica de programação: praticando com desafios</a></p>
+
+                <p><a class="apresentacao__links__links" href="https://www.alura.com.br/formacao-programacao">Mais informações sobre a formação.</a></p>
+        </div>
+    
+        <div id="Tab2" class="tabcontent">
+            <h3 class="apresentacao__conteudo__subtitulo__certificados">Desenvolvimento Front-End</h3>
+            <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/degree/certificate/32545ae5-264f-4504-9e2b-606535b6ed27?lang">Formação: A partir do zero: HTML e CSS para projetos web</a></p>
+                <p class="apresentacao__conteudo__texto__certificados">Cursos realizados para esta formação:</p>
+                <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/d2c2fe1e-ca21-455c-b5bd-98c3f4d4c75a?lang">HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags</a></p>
+
+                <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/18376f4a-d0f8-4bb9-8d8b-af9e8b212c0d?lang">HTML e CSS: Classes, posicionamento e Flexbox</a></p>
+                <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/50d46bb4-61e8-412b-9f22-7e3f6e436e99?lang">HTML e CSS: cabeçalho, footer e variáveis CSS</a></p>
+                <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/8c49c610-5c9c-4c51-a1e0-d706f4044b24?lang">HTML e CSS: trabalhando com responsividade e publicação de projetos</a></p>
+                <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/57977639-a016-48e4-9217-bf1092c6d055?lang">HTML e CSS: praticando HTML/CSS</a></p>
+                <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/0b02f4c0-90df-4a20-a549-8e1c6f7dfa8c?lang">HTML e CSS: responsividade com mobile-first</a></p>
+                <p><a class="apresentacao__links__links" href="https://cursos.alura.com.br/formacao-html-css-v527396">Mais informações sobre a formação.</a></p></p>
+        </div>
+    
+        <div id="Tab3" class="tabcontent">
+            <h3 class="apresentacao__conteudo__subtitulo__certificados">Desenvolvimento Web com Javascript</h3>
+            <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/degree/certificate/75428e42-f617-49fd-a0a9-e7bbe3b4bae5?lang">Formação: Desenvolva aplicações Web com JavaScript.</a></p>
+                <p class="apresentacao__conteudo__texto__certificados">Cursos realizados para esta formação:</p>
+                <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/22a854a6-75dd-4958-8a15-567119f87b2a?lang">JavaScript para Web: Crie páginas dinâmicas</a></p>
+
+                <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/790084e1-aaf1-431e-ab0d-ad321a015117?lang">JavaScript: manipulando elementos no DOM</a></p>
+
+                <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/c6f252d8-16a1-4075-b0d9-0b2a830c92ac?lang">JavaScript: explorando a manipulação de elementos e da localStorage</a></p>
+
+                <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/3122d32d-b126-45ce-a245-4d3bb739f466?lang">JavaScript: validações e reconhecimento de voz</a></p>
+
+                <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/52575370-b4fa-4f79-b2d7-437148d9dd14?lang">JavaScript: consumindo e tratando dados de uma API</a></p>
+
+                <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/fb5a0432-d6b5-4866-85bb-159e17ba1953?lang">JavaScript: métodos de array</a></p>
+
+                <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/3209ad99-548e-4171-9d47-13b264a1edbf?lang">JavaScript: criando requisições</a></p>
+
+                <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/6e4878fc-89f7-4230-a663-b0bba9eec0e1?lang">JavaScript: validando formulários</a></p>
+
+                <p><a class="apresentacao__links__links" href="https://cursos.alura.com.br/formacao-javascript-front-end-v687029">Mais informações sobre a formação.</a>     </p>
+        </div>
+
+        <div id="Tab4" class="tabcontent">
+            <h3 class="apresentacao__conteudo__subtitulo__certificados">Quality Assurance</h3>
+            <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/degree/certificate/75428e42-f617-49fd-a0a9-e7bbe3b4bae5?lang">Carreira QA: processos e automação de testes</a></p>
             <p class="apresentacao__conteudo__texto__certificados">Ainda em conclusão</p>
             <p class="apresentacao__conteudo__texto__certificados">Cursos realizados para esta formação até o momento:</p>
-            <a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/22a854a6-75dd-4958-8a15-567119f87b2a?lang">JavaScript para Web: Crie páginas dinâmicas</a>
-            <a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/790084e1-aaf1-431e-ab0d-ad321a015117?lang">JavaScript: manipulando elementos no DOM</a>
-            <a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/c6f252d8-16a1-4075-b0d9-0b2a830c92ac?lang">JavaScript: explorando a manipulação de elementos e da localStorage</a>
-            <a class="apresentacao__links__links" href="https://cursos.alura.com.br/formacao-javascript-front-end">Mais informações sobre a formação.</a>            
-        
-        
+            <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/df9193d0-d9d7-4462-9671-f279a8ae2ee2?lang">Quality Assurance: plano de testes e gestão de bugs</a></p>
+            <p><a class="apresentacao__links__certificados" href="https://cursos.alura.com.br/certificate/f9bdf803-79a7-4b34-8678-b39cbb85e665?lang">Cypress: automatizando testes E2E</a></p>
+            <p><a class="apresentacao__links__links" href="https://cursos.alura.com.br/formacao-carreira-tester-qa">Mais informações sobre a formação.</a>     </p>
+        </div>
         
         </section>
         </main>
 
-   
+   <script src="./js/script.js"></script>
 </body>
 </html>

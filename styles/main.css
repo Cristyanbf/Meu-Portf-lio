@@ -100,6 +100,67 @@
     
 }
 
+.tab {
+    overflow:hidden;
+}
+
+.tab button {
+    font-family: var(--fonte-primaria);
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    background-color: var(--cor-primaria);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: var(--cor-hover);
+}
+
+.tab button.active {
+    background-color: var(--cor-hover);
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    border: none;
+}
+
+.accordion {
+    margin: 20px;
+}
+
+.accordion-button {
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-primaria);
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.accordion-button:hover {
+    background-color: var(--cor-hover);
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    border: none;
+    border-top: none;
+}
+
+
+
 @media screen and (min-width: 1024px){
     .apresentacao{
         margin-top: 5em;
@@ -155,6 +216,14 @@
         width: 30%;
        
         
+    }
+    .tab {
+        display: flex;
+        overflow:hidden;
+    }
+
+    .tab button {
+        padding: 10px 30px;
     }
    
 }
