@@ -5,10 +5,10 @@
 
 
 :root{
-    --cor-primaria: #222831;
-    --cor-secundaria: #EEEEEE; 
-    --cor-terciaria: #76ABAE;
-    --cor-hover: #31363F;
+    --cor-primaria: #d9d9d9;
+    --cor-secundaria: #000000; 
+    --cor-terciaria: #000000;
+    --cor-hover: #eeeeee;
 
     --fonte-primaria: "Krona One", sans-serif;
     --fonte-secundaria: "Oswald";

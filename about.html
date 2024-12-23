@@ -24,42 +24,62 @@
     </header>
 
     <main class="apresentacao">
-            
+        <h1 class="apresentacao__conteudo__titulo">Sobre mim</h1>
+        <p class="apresentacao__conteudo__texto"> Estudante de ciência da computação na instituição
+            Anhanguera e Quality Assurance na escola online de
+            tecnologia Alura.
+            Possuo conhecimento em logica de programação e quality
+            assurance, testes automatizados com Cypress, além de
+            desenvolvimento Front-end com JavaScript e
+            conhecimento em HTML e CSS. </p>
     
-        
-            <p>Português: Língua materna.</p>
-            <p>Inglês: Básico.</p> 
-            
-        <h3 class="apresentacao__conteudo__titulo">Idiomas</h3>
-    
-            <p class="apresentacao__conteudo__texto">Simpático.</p>
-            <p class="apresentacao__conteudo__texto">Proativo.</p>
-            <p class="apresentacao__conteudo__texto">Conhecimento em Behavior Driven
-                Development.</p>
-            <p class="apresentacao__conteudo__texto">Conhecimento em automatização de testes com Cyprees Framework e Robot Framework.</p>
-            <p class="apresentacao__conteudo__texto">Conhecimento em Quality Assurance.</p>
-            <p class="apresentacao__conteudo__texto">Conhecimento em HTML e CSS.</p>
-            <p class="apresentacao__conteudo__texto">Conhecimento em Git e Github.</p>
-            <p class="apresentacao__conteudo__texto">Conhecimento em desenvolvimento Front-End a partir do Figma.</p>
-            <p class="apresentacao__conteudo__texto">Conhecimento em desenvolvimento Front-end com JavaScript.</p>
-            <p class="apresentacao__conteudo__texto">Conhecimento em Lógica de Programação com JavaScript.</p>
-        <h3 class="apresentacao__conteudo__titulo">Habilidades</h3>
-        <section class="apresentacao__conteudo">
-
-            <h1 class="apresentacao__conteudo__titulo">Sobre mim</h1>
-            <p class="apresentacao__conteudo__texto"> Estudante de ciência da computação na instituição
-                Anhanguera e Quality Assurance na escola online de
-                tecnologia Alura.
-                Possuo conhecimento em logica de programação e quality
-                assurance, testes automatizados com Cypress, além de
-                desenvolvimento Front-end com JavaScript e
-                conhecimento em HTML e CSS. </p>
         </section>
-        
-           
+
+        <section class="apresentacao__conteudo"> 
+            <h1 class="apresentacao__conteudo__titulo">Habilidades</h1>
+        <div class="tab">
+            <button class="tablinks " onclick="openTab(event, 'Tab1')">Lógica de Programação </button>
+            <button class="tablinks" onclick="openTab(event, 'Tab2')">Desenvolvimento com HTML e CSS</button>
+            <button class="tablinks" onclick="openTab(event, 'Tab3')">Desenvolvimento com JavaScript</button>
+            <button class="tablinks" onclick="openTab(event, 'Tab4')">Quality Assurance</button>
+        </div>
+        <div id="Tab1" class="tabcontent">
+            <h3 class="apresentacao__conteudo__subtitulo__certificados">Lógica de Programação</h3>
+            <p> <a class="apresentacao__links__certificados">Conhecimento em criar, analisar e resolver problemas computacionais de forma estruturada e eficiente.</a></p>       
+        </div>
+        <div id="Tab2" class="tabcontent">
+            <h3 class="apresentacao__conteudo__subtitulo__certificados">Desenvolvimento com HTML e CSS</h3>
+            <p> <a class="apresentacao__links__certificados">Desenvolvimento de layouts e páginas web com HTML e CSS.</a></p>
+            <p> <a class="apresentacao__links__certificados">Uso de ferramentas como Figma e Github.</a></p>
+            <p> <a class="apresentacao__links__certificados">Criação de páginas responsivas. </a></p>
+            <p> <a class="apresentacao__links__certificados">Organização  e de conteúdo com Flexbox.</a></p>       
+        </div>
+        <div id="Tab3" class="tabcontent">
+            <h3 class="apresentacao__conteudo__subtitulo__certificados">Desenvolvimento com JavaScript</h3>
+            <p> <a class="apresentacao__links__certificados">Criação de páginas dinâmicas.</a></p>
+            <p> <a class="apresentacao__links__certificados">Manipulação de elementos do DOM e LocalStorage.</a></p>
+            <p> <a class="apresentacao__links__certificados">Consumo de APIs.</a></p>
+            <p> <a class="apresentacao__links__certificados">Validações de formulários.</a></p>
+            <p> <a class="apresentacao__links__certificados">Uso de Express e MongoDB para desenvolvimento de aplicações.</a></p>       
+        </div>
+        <div id="Tab4" class="tabcontent">
+            <h3 class="apresentacao__conteudo__subtitulo__certificados">Quality Assurance</h3>
+            <p> <a class="apresentacao__links__certificados">Conhecimento em planos de testes e correção de bugs.</a></p> 
+            <p> <a class="apresentacao__links__certificados">Classificação de testes (caixa preta, caixa branca e E2E).</a></p> 
+            <p> <a class="apresentacao__links__certificados"> Testes manuais e automatizados com Cypress e Robot Framework.</a></p> 
+            <p> <a class="apresentacao__links__certificados">Integração contínua no GitHub Actions.</a></p> 
+            <p> <a class="apresentacao__links__certificados">Testes de API com Postman.</a></p> 
+            <p> <a class="apresentacao__links__certificados"> Testes unitários com Jest e no padrão Triple A.</a></p> 
+            <p> <a class="apresentacao__links__certificados"> Integração com Supertest.</a></p> 
+            <p> <a class="apresentacao__links__certificados">Testes em banco de dados.</a></p>       
+        </div>
+
+        <h3 class="apresentacao__conteudo__titulo">Idiomas</h3>
+        <p>Português: Língua materna.</p>
+        <p>Inglês: Básico.</p> 
         
 
     </main>
-
+    <script src="./js/script.js"></script>
 </body>
 </html>

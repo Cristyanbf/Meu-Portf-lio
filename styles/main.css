@@ -3,7 +3,7 @@
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    flex-direction: column-reverse;
+    flex-direction: column;
     margin: 2em;
     height: auto;
     width: auto;   
